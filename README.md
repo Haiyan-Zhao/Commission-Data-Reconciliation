@@ -30,14 +30,19 @@ This project provides a solution for processing, cleaning, and analyzing insuran
 ## Setup
 
 1. Install required dependencies:
+
 `pip install -r requirements.txt`
+
 2. Set up pre-commit hooks (optional):
+
 `pre-commit run --all-files`
 
 
 ## Running
 1. Place the raw carrier data files in the data/original directory.
+
 2. Run the pipeline:
+
 `python main.py process_final`
 
 
