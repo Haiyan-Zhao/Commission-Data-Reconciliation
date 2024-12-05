@@ -31,11 +31,11 @@ This project provides a solution for processing, cleaning, and analyzing insuran
 
 1. Install required dependencies:
 
-`pip install -r requirements.txt`
+   `pip install -r requirements.txt`
 
 2. Set up pre-commit hooks (optional):
 
-`pre-commit run --all-files`
+   `pre-commit run --all-files`
 
 
 ## Running
@@ -43,15 +43,17 @@ This project provides a solution for processing, cleaning, and analyzing insuran
 
 2. Run the pipeline:
 
-`python main.py process_final`
+   `python main.py process_final`
 
 
 ## Expected Outputs
 
 1. A cleaned and standardized commission data CSV file saved to the output directory (default: `data/result/cleaned_commissions.csv`).
+
 2. Analytics:
    - Period summary of commission data
    - Top 10 agents by total earnings
+   
 3. Processing Statistics:
    - Summary of parsed records by source
    - Validation results and cleaning details
